@@ -1,82 +1,77 @@
 <template>
-    <div class="wrapper">
-        <!-- Sidebar  -->
         <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
+          <div class="sidebar-header">
+                            <div class="asideHeader-userInformations">
+                        <img src="https://i.ibb.co/C89d23Q/269598916-3121818061469216-1410431572077788763-n.jpg" alt="" class="asideHeader-imgUserImage">
+                        <h3 class="asideHeader-lblUserName">Emile Van Wyk</h3>
+                        <div class="asideHeader-socialsBox">
+                            <a href="#" class="asideHeader-btnSocial"><i class="bi-twitter"></i></a>
+                            <a href="#" class="asideHeader-btnSocial"><i class="bi-facebook"></i></a>
+                            <a href="#" class="asideHeader-btnSocial"><i class="bi-instagram"></i></a>
+                            <a href="#" class="asideHeader-btnSocial"><i class="bi-skype"></i></a>
+                            <a href="#" class="asideHeader-btnSocial"><i class="bi-linkedin"></i></a>
+                        </div>
+                    </div>
+          </div>
+    
+          <ul class="list-unstyled components">
+            <p>Welcome</p>
+            <li class="active">
+              <a href="#">home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a
+                href="#pageSubmenu"
+                data-toggle="collapse"
+                aria-expanded="false"
+                class="dropdown-toggle"
+                >Pages</a
+              >
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#">Page 1</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                  <a href="#">Page 2</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
+                  <a href="#">Page 3</a>
                 </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+    
+          <ul class="list-unstyled CTAs">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1s6n2gbMQGMKqi6cXCGmOMBkOq-JVnkHh/view?usp=sharing"
+                class="download"
+                >Download CV</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Emivw"
+                class="article"
+                >Github</a
+              >
+            </li>
+          </ul>
         </nav>
-
-        <!-- Page Content  -->
-        <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-
-                </div>
-            </nav>
-
-        </div>
-    </div>
+        <button type="button" id="sidebarCollapse" class="btn btn-grad toggleBTN">
+          <i class="fas fa-align-left"></i>
+          <span>  Toggle Sidebar</span>
+        </button>
+   
 </template>
 <script>
                 $(document).ready(function () {
@@ -88,10 +83,17 @@ export default {
 
 }
 </script>
-<style scoped>
+<style >
 /*
-    DEMO STYLE
+    SIDE NAV
 */
+
+.toggleBTN{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000
+}
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
@@ -122,6 +124,10 @@ a:focus {
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .navbar-btn {
@@ -141,11 +147,6 @@ a:focus {
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-}
 
 #sidebar {
     min-width: 250px;
@@ -153,10 +154,18 @@ a:focus {
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
 }
 
 #sidebar.active {
     margin-left: -250px;
+}
+#sidebar:not(.active) ~ #content {
+    padding-left: 250px;
 }
 
 #sidebar .sidebar-header {
@@ -231,6 +240,63 @@ a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
 }
+ .asideHeader-userInformations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;    
+}
+
+.asideHeader-userInformations {
+    padding: 0;
+}
+
+.asideHeader-imgUserImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid #7a7265;
+    margin-bottom: 20px;
+}
+
+.asideHeader-lblUserName {
+    font-family: var(--font-Poppins);
+    font-size: var(--font-md);
+    font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.asideHeader-btnSocial {
+    padding: 10px 12px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-size: var(--font-sm);
+    transition: background-color .5s;
+}
+
+.asideHeader-btnSocial:hover {
+    background-color: var(--color-primary);
+}
+
+.containerAside-main, .asideMain-menuItemsBox {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.asideMain-menuItem {
+    margin: 15px 0;
+}
+
+.asideMain-menuItemsBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -241,6 +307,41 @@ a.article:hover {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+}
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: #a00000;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.site-heading h4::before {
+  background: #a00000 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
 }
 
 /* ---------------------------------------------------
