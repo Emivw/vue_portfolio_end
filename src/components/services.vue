@@ -13,8 +13,8 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-pen-fancy"></i>
-                            <h4>Authentic Products</h4>
+                            <i class="fa-brands fa-html5"></i>
+                            <h4>HTML</h4>
                             <p>
                                 be the proud owner of your favorite superheroes memorabilia. 
                             </p>
@@ -25,8 +25,8 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-dharmachakra"></i>
-                            <h4>Product Development</h4>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <h4>CSS3</h4>
                             <p>
                                 ever growing product list. 
                             </p>
@@ -37,8 +37,8 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-tasks"></i>
-                            <h4>Quality Ensurance</h4>
+                            <i class="fa-brands fa-js-square"></i>
+                            <h4>JavaScript</h4>
                             <p>
                                 stress test of all items. 
                             </p>
@@ -49,8 +49,8 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <h4>Speedy Delivery</h4>
+                            <i class="fas fa-database"></i>
+                            <h4>MySQL</h4>
                             <p>
                                 Same day delivery of your product to your doorstep. 
                             </p>
@@ -61,8 +61,8 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-recycle"></i>
-                            <h4>Refurbished Products</h4>
+                            <i class="fa-brands fa-vuejs"></i>
+                            <h4>Vue.js</h4>
                             <p>
                                 All products are restored to their full glory. 
                             </p>
@@ -73,8 +73,30 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-headset"></i>
-                            <h4>24h7 Support</h4>
+                            <i class="fa-brands fa-node-js"></i>
+                            <h4>Node.js</h4>
+                            <p>
+                                have an enquiry? contact our around the clock call centre. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <h4>Bootstrap</h4>
+                            <p>
+                                have an enquiry? contact our around the clock call centre. 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                                        <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                           <i class="fa-brands fa-php"></i>
+                            <h4>PHP</h4>
                             <p>
                                 have an enquiry? contact our around the clock call centre. 
                             </p>
@@ -107,42 +129,6 @@ ul {
     list-style: none;
 }.bg-gray {
     background-color: #f9f9f9;
-}
-
-.site-heading h2 {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.site-heading h2 span {
-  color: #a00000;
-}
-
-.site-heading h4 {
-  display: inline-block;
-  padding-bottom: 20px;
-  position: relative;
-  text-transform: capitalize;
-  z-index: 1;
-}
-
-.site-heading h4::before {
-  background: #a00000 none repeat scroll 0 0;
-  bottom: 0;
-  content: "";
-  height: 2px;
-  left: 50%;
-  margin-left: -25px;
-  position: absolute;
-  width: 50px;
-}
-
-.site-heading {
-  margin-bottom: 60px;
-  overflow: hidden;
-  margin-top: -5px;
 }
 
 .carousel-shadow .owl-stage-outer {

@@ -81,9 +81,9 @@
     <div id="content">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <button type="button" id="sidebarCollapse" class="btn btn-info">
+          <button type="button" id="sidebarCollapse" class="btn btn-grad ">
             <i class="fas fa-align-left"></i>
-            <span>Toggle Sidebar</span>
+            <span>  Toggle Sidebar</span>
           </button>
         </div>
       </nav>
@@ -116,7 +116,7 @@ export default {
   color: #2c3e50;
 }
 /*
-    DEMO STYLE
+    SIDE NAV
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
@@ -268,6 +268,62 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: #a00000;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.site-heading h4::before {
+  background: #a00000 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
 
 /* ---------------------------------------------------
     MEDIAQUERIES
