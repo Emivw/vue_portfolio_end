@@ -13,6 +13,7 @@
       <footerComp />
 </template>
 <script>
+
 import headerComp from "@/components/headerComp.vue";
 import mainComp from "@/components/mainComp.vue";
 import footerComp from "@/components/footerComp.vue";
@@ -27,10 +28,27 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+     color: #6c757d !important;
 }
 
+:root{
+  --background-color: #2c3e50;
+  --text-color:
+}
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
 
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -46,6 +64,7 @@ export default {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
+   color: #6c757d !important;
 }
 
 .site-heading h2 span {

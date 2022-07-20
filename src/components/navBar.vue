@@ -5,11 +5,14 @@
                         <img src="https://i.ibb.co/C89d23Q/269598916-3121818061469216-1410431572077788763-n.jpg" alt="" class="asideHeader-imgUserImage">
                         <h3 class="asideHeader-lblUserName">Emile Van Wyk</h3>
                         <div class="asideHeader-socialsBox">
-                            <a href="#" class="asideHeader-btnSocial"><i class="bi-twitter"></i></a>
-                            <a href="#" class="asideHeader-btnSocial"><i class="bi-facebook"></i></a>
-                            <a href="#" class="asideHeader-btnSocial"><i class="bi-instagram"></i></a>
-                            <a href="#" class="asideHeader-btnSocial"><i class="bi-skype"></i></a>
-                            <a href="#" class="asideHeader-btnSocial"><i class="bi-linkedin"></i></a>
+                            <a href="https://www.facebook.com/blackbird2564/" target=”_blank” class="asideHeader-btnSocial"><i class="bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/just_emi_vw/" target=”_blank” class="asideHeader-btnSocial"><i class="bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/emile-van-wyk-561097209/" target=”_blank” class="asideHeader-btnSocial"><i class="bi-linkedin"></i></a>
+                                          <a
+                href="https://github.com/Emivw" target=”_blank”
+                class="article"
+                ><i class="bi bi-github"></i></a
+              >
                         </div>
                     </div>
           </div>
@@ -23,26 +26,6 @@
               <a href="#">About</a>
             </li>
             <li>
-              <a
-                href="#pageSubmenu"
-                data-toggle="collapse"
-                aria-expanded="false"
-                class="dropdown-toggle"
-                >Pages</a
-              >
-              <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                  <a href="#">Page 1</a>
-                </li>
-                <li>
-                  <a href="#">Page 2</a>
-                </li>
-                <li>
-                  <a href="#">Page 3</a>
-                </li>
-              </ul>
-            </li>
-            <li>
               <a href="#">Portfolio</a>
             </li>
             <li>
@@ -53,24 +36,18 @@
           <ul class="list-unstyled CTAs">
             <li>
               <a
-                href="https://drive.google.com/file/d/1s6n2gbMQGMKqi6cXCGmOMBkOq-JVnkHh/view?usp=sharing"
+                href="https://drive.google.com/file/d/1s6n2gbMQGMKqi6cXCGmOMBkOq-JVnkHh/view?usp=sharing" target=”_blank”
                 class="download"
                 >Download CV</a
               >
             </li>
-            <li>
-              <a
-                href="https://github.com/Emivw"
-                class="article"
-                >Github</a
-              >
-            </li>
           </ul>
         </nav>
-        <button type="button" id="sidebarCollapse" class="btn btn-grad toggleBTN">
+                <button type="button" id="sidebarCollapse" class="btn btn-grad toggleBTN">
           <i class="fas fa-align-left"></i>
           <span>  Toggle Sidebar</span>
         </button>
+
    
 </template>
 <script>
@@ -90,8 +67,8 @@ export default {
 
 .toggleBTN{
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 1.25rem;
+  right: 1.25rem;
   z-index: 1000
 }
 
@@ -122,7 +99,7 @@ a:focus {
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -140,7 +117,7 @@ a:focus {
     width: 100%;
     height: 1px;
     border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 
 /* ---------------------------------------------------
@@ -149,8 +126,8 @@ a:focus {
 
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 15.625rem;
+    max-width: 15.625rem;
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
@@ -162,19 +139,19 @@ a:focus {
 }
 
 #sidebar.active {
-    margin-left: -250px;
+    margin-left: -15.625rem;
 }
 #sidebar:not(.active) ~ #content {
-    padding-left: 250px;
+    /* padding-left: 15.625rem; */
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
+    padding: 1.25rem;
     background: #6d7fcc;
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     border-bottom: 1px solid #47748b;
 }
 
@@ -208,7 +185,7 @@ a[data-toggle="collapse"] {
     display: block;
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 1.25rem;
     transform: translateY(-50%);
 }
 
@@ -219,7 +196,7 @@ ul ul a {
 }
 
 ul.CTAs {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 ul.CTAs a {
@@ -244,7 +221,7 @@ a.article:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;    
+    padding: 1.25rem 0;    
 }
 
 .asideHeader-userInformations {
@@ -252,11 +229,11 @@ a.article:hover {
 }
 
 .asideHeader-imgUserImage {
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
     border: 8px solid #7a7265;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .asideHeader-lblUserName {
@@ -264,7 +241,7 @@ a.article:hover {
     font-size: var(--font-md);
     font-weight: 600;
     color: var(--color-white);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .asideHeader-btnSocial {
@@ -283,7 +260,7 @@ a.article:hover {
 
 .containerAside-main, .asideMain-menuItemsBox {
     width: 100%;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .asideMain-menuItem {
@@ -295,7 +272,7 @@ a.article:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 /* ---------------------------------------------------
@@ -304,7 +281,7 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
     min-height: 100vh;
     transition: all 0.3s;
 }
@@ -321,7 +298,7 @@ a.article:hover {
 
 .site-heading h4 {
   display: inline-block;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   position: relative;
   text-transform: capitalize;
   z-index: 1;
@@ -335,11 +312,11 @@ a.article:hover {
   left: 50%;
   margin-left: -25px;
   position: absolute;
-  width: 50px;
+  width: 3.125rem;
 }
 
 .site-heading {
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
   overflow: hidden;
   margin-top: -5px;
 }
