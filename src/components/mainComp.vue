@@ -8,9 +8,10 @@
 import testCarousel from "@/components/testCarousel.vue";
 import projectCard from "@/components/projectCard.vue";
 import expComp from "@/components/expComp.vue";
-import ContactComp from "./contactComp.vue";
+import ContactComp from "@/components/contactComp.vue";
+
     export default {
-  components: { testCarousel, expComp, projectCard, ContactComp },
+  components: { testCarousel, expComp, projectCard, ContactComp},
 }
 </script>
     

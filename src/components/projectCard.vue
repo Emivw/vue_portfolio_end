@@ -1,5 +1,8 @@
 <template>
 <div class="container">
+<div class="section-title">
+        <h2>Projects</h2>
+      </div>
 <div class="row">
     <div class="col-md-3" v-for="project in projects"
             :key="project">
@@ -40,11 +43,10 @@
     background-position: center;
     position: relative;
     overflow: hidden;
-    min-height: 450px;
+    min-height: 500px;
     margin: 1rem;
     border-radius:  15px;
     max-width: 350px; 
-    width: 100%;
 }
 
 .card-body{

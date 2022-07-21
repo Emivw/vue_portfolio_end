@@ -1,14 +1,14 @@
 <template>
-<home/>
-  <services/>
+<homeComp/>
+<aboutComp/>
 </template>
 
 <script>
-import services from "@/components/servicesComp.vue";
-import home from "@/components/homeComp.vue";
+import homeComp from "@/components/homeComp.vue";
+import aboutComp from "@/components/aboutComp.vue";
 
 export default {
-  components: { services, home },
+  components: {homeComp, aboutComp },
 };
 </script>
 

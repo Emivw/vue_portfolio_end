@@ -1,87 +1,107 @@
 <template>
   <section class="page-section" id="about">
     <div class="container">
-      <div class="site-heading text-center">
-        <h2>I am <span>Emile Van Wyk</span></h2>
-        <h4>Welcome to my Portfolio</h4>
+<div class="section-title">
+        <h2>Work / Education</h2>
+        <p>
+        </p>
       </div>
       <ul class="timeline">
         <li>
-          <div class="timeline-image "></div>
-          <div class="timeline-panel ">
+          <div class="timeline-image">
+            <img
+              src="../assets/images/downloadcopy.jpg"
+              class="rounded-circle img-fluid"
+              style="width: 200px"
+              alt=""
+            />
+          </div>
+          <div class="timeline-panel">
             <div class="timeline-heading">
               <h4>2020 - 2021</h4>
-              <h4 class="subheading">QuickEasy Software - SQL Development Intern</h4>
+              <h4 class="subheading">
+                QuickEasy Software - SQL Development Intern
+              </h4>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
-                Tasks included Importing / capturing data, maintained demo databases front
-                end and backend running upgrade scripts and testing information fidelity,
-                as well as bug testing following S.O.P., Designing of templates using
-                template tools following S.O.P, Formulated reports in FirebirdSQL to
-                Specifications of clients and company. Attended training sessions with
-                development seniors on procedures and operations of company. Produced
-                videos for company page through Camtasia.
+                Tasks included Importing / capturing data, maintained demo
+                databases front end and backend running upgrade scripts and
+                testing information fidelity, as well as bug testing following
+                S.O.P., Designing of templates using template tools following
+                S.O.P, Formulated reports in FirebirdSQL to Specifications of
+                clients and company. Attended training sessions with development
+                seniors on procedures and operations of company. Produced videos
+                for company page through Camtasia.
               </p>
-            </div>
-            
-          </div>
-          <div class="timeline-panel floating">
-            <div class="timeline-heading">
-                <img src="../assets/images/downloadcopy.jpg" class="" alt=""/>
             </div>
           </div>
         </li>
 
         <li class="timeline-inverted">
-          <div class="timeline-image "></div>
-          <div class="timeline-panel ">
+          <div class="timeline-image">
+            <img
+              src="https://quickeasysoftware.com/wp-content/uploads/bb-plugin/cache/Copy-of-1-2-e1599824522610-150x150-circle-150x150-circle.png"
+              class="rounded-circle img-fluid mt-1"
+              alt=""
+            />
+          </div>
+          <div class="timeline-panel">
             <div class="timeline-heading">
               <h4>2019 - 2020</h4>
               <h4 class="subheading">Savvy Business - Assistant</h4>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
-                Tasks included answering incoming calls and emails from clients in a
-                helpdesk environment, providing remote support, log client queries and
-                escalate where required. Attend meetings with clients onsite, creation of
-                training documents and videos, designing and maintaining client google
-                sites to house documentation for internal use. Provided onsite support for
-                client to ensure smooth transition, providing training and documentation
-                of S.O.P, as well as first line support and escalated queries where
-                required.
+                Tasks included answering incoming calls and emails from clients
+                in a helpdesk environment, providing remote support, log client
+                queries and escalate where required. Attend meetings with
+                clients onsite, creation of training documents and videos,
+                designing and maintaining client google sites to house
+                documentation for internal use. Provided onsite support for
+                client to ensure smooth transition, providing training and
+                documentation of S.O.P, as well as first line support and
+                escalated queries where required.
               </p>
             </div>
           </div>
-                    <div class="timeline-panel floating">
-            <div class="timeline-heading">
-                              <img src="https://quickeasysoftware.com/wp-content/uploads/bb-plugin/cache/Copy-of-1-2-e1599824522610-150x150-circle-150x150-circle.png" class="rounded-circle img-fluid" alt=""/>
-            </div>
+          <div class="timeline-panel floating">
+            <div class="timeline-heading"></div>
           </div>
         </li>
-        <li >
-          <div class="timeline-image "></div>
-          <div class="timeline-panel ">
+        <li>
+          <div class="timeline-image">
+            <img
+              src="https://academy.lifechoices.co.za/pluginfile.php/1/theme_moove/logo/1616663360/LIFE-CHOICES-ACADEMY-LOGO-ON-BLUE-removebg-preview.png"
+              class="img-fluid rounded-circle mt-4 py-3"
+              alt=""
+            />
+          </div>
+          <div class="timeline-panel">
             <div class="timeline-heading">
               <h4>2022 - Present</h4>
               <h4 class="subheading">Life Choices Academy - Student</h4>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
-                full-stacks-developement course: HTML5, CSS3, Bootstrap, MySQL, VUE.JS,
-                NODE.JS
+                full-stacks-developement course: HTML5, CSS3, Bootstrap, MySQL,
+                VUE.JS, NODE.JS
               </p>
             </div>
           </div>
-                    <div class="timeline-panel floating">
-            <div class="timeline-heading">
-                               <img src="https://academy.lifechoices.co.za/pluginfile.php/1/theme_moove/logo/1616663360/LIFE-CHOICES-ACADEMY-LOGO-ON-BLUE-removebg-preview.png" class="img-fluid" alt=""/>
-            </div>
+          <div class="timeline-panel floating">
+            <div class="timeline-heading"></div>
           </div>
         </li>
         <li class="timeline-inverted">
-          <div class="timeline-image "></div>
-          <div class="timeline-panel ">
+          <div class="timeline-image">
+            <img
+              src="https://ged.com/wp-content/uploads/2018/03/ged-logo.svg"
+              class=" img-fluid rounded-4 mt-4" style="width: 140px;"
+              alt=""
+            />
+          </div>
+          <div class="timeline-panel">
             <div class="timeline-heading">
               <h4>2018</h4>
               <h4 class="subheading">
@@ -92,10 +112,8 @@
               <p class="text-muted">Matric Equivalent Certificate</p>
             </div>
           </div>
-        <div class="timeline-panel floating">
-            <div class="timeline-heading">
-                <img src="https://ged.com/wp-content/uploads/2018/03/ged-logo.svg" class="img-thumbnail img-fluid" alt=""/>
-            </div>
+          <div class="timeline-panel floating">
+            <div class="timeline-heading"></div>
           </div>
         </li>
 
@@ -183,7 +201,7 @@
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #47748b;
+  background-color: #000000;
 }
 .timeline > li .timeline-image h4,
 .timeline > li .timeline-image .h4 {
@@ -314,9 +332,9 @@
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
 
@@ -345,9 +363,9 @@
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
 

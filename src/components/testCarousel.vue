@@ -1,6 +1,8 @@
 <template>
+  <div class="section-title">
+        <h2>Testimonials</h2>
+      </div>
 <div class="home-demo">
-  <h3>Carousel</h3>
   <div class="owl-carousel owl-theme">
     <div class="item">
       <h2>Swipe</h2>
