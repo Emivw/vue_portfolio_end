@@ -1,9 +1,13 @@
 <template>
-    <div class="card">
+<div class="container">
+<div class="row">
+    <div class="col-md-3" v-for="project in projects"
+            :key="project">
+    <div class="card" >
       <div class="card-body">
         <div class="card-content">
 
-          <h2 class="card-title">Nice animated card</h2>
+          <h2 class="card-title">{{project.projectName}}</h2>
           <p class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis tempora at rerum?
           </p>
@@ -12,10 +16,19 @@
         </div>
       </div>
     </div>
+    </div>
+</div>
+</div>
 </template>
     
 <script>
-    
+    export default {
+  computed: {
+    projects() {
+      return this.$store.state.projects;
+    },
+  },
+};
 </script>
     
 <style scoped>
