@@ -16,6 +16,8 @@
             <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+          </li> <li class="nav-item">
             <a class="nav-link" href="#resume">RESUME</a>
           </li>
           <li class="nav-item">

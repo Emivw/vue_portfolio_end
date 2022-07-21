@@ -1,268 +1,92 @@
 <template>
-<div class="container-fluid">
-        <div class="contain">
-
-  <div class="wrapper">
-
-    <div class="form">
-      <h4>GET IN TOUCH</h4>
-      <h2 class="form-headline">Send us a message</h2>
-      <form id="submit-form" action="">
-        <p>
-          <input id="name" class="form-input" type="text" placeholder="Your Name*">
-          <small class="name-error"></small>
-        </p>
-        <p>
-          <input id="email" class="form-input" type="email" placeholder="Your Email*">
-          <small class="name-error"></small>
-        </p>
-        <p class="full-width">
-          <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
-          <small></small>
-        </p>
-        <p class="full-width">
-          <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
-          <small></small>
-        </p>
-        <p class="full-width">
-          <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
-        </p>
-        <p class="full-width">
-          <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
-          <button class="reset-btn" onclick="reset()">Reset</button>
-        </p>
-      </form>
-    </div>
-
-    <div class="contacts contact-wrapper">
-
-      <ul>
-        <li>We've driven online revenues of over <span class="highlight-text-grey">$2
-            billion</span> for our clients. Ready to know
-          how we can help you?</li>
-        <span class="hightlight-contact-info">
-          <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
-        </span>
-      </ul>
-    </div>
-  </div>
-</div>
-    
-</div>
+<section id="contact" class="py-5">
+<form>
+  <div>
+  <img src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png" alt="icon">
+   </div>
+  <input type="text" placeholder="Name (required)" required>
+  <input type="text" placeholder="Return address (required)" required>
+  <input type="text" placeholder="Topic (required)" required>
+  <textarea placeholder="Subject (required)" required></textarea>
+  <input type="submit" value="Send">
+</form>
+</section>
 </template>
     
 <script>
-    const nameEl = document.querySelector("#name");
-const emailEl = document.querySelector("#email");
-const companyNameEl = document.querySelector("#company-name");
-const messageEl = document.querySelector("#message");
-
-const form = document.querySelector("#submit-form");
-
-function checkValidations() {
-  let letters = /^[a-zA-Z\s]*$/;
-  const name = nameEl.value.trim();
-  const email = emailEl.value.trim();
-  const companyName = companyNameEl.value.trim();
-  const message = messageEl.value.trim();
-  if (name === "") {
-     document.querySelector(".name-error").classList.add("error");
-      document.querySelector(".name-error").innerText =
-        "Please fill out this field!";
-  } else {
-    if (!letters.test(name)) {
-      document.querySelector(".name-error").classList.add("error");
-      document.querySelector(".name-error").innerText =
-        "Please enter only characters!";
-    } else {
-      
-    }
-  }
-  if (email === "") {
-     document.querySelector(".name-error").classList.add("error");
-      document.querySelector(".name-error").innerText =
-        "Please fill out this field!";
-  } else {
-    if (!letters.test(name)) {
-      document.querySelector(".name-error").classList.add("error");
-      document.querySelector(".name-error").innerText =
-        "Please enter only characters!";
-    } else {
-      
-    }
-  }
-}
-
-function reset() {
-  nameEl = "";
-  emailEl = "";
-  companyNameEl = "";
-  messageEl = "";
-  document.querySelector(".name-error").innerText = "";
-}
-
 </script>
     
 <style scoped>
-    /* color:  red#ec1c24, black#212d31, grey#343a40, white#eee  */
 * {
-  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: bordera-box;
+  font-family: Helvetica;
 }
 
 body {
-  padding: 1rem;
-  color: #212d31;
-  font-family: 'Roboto', sans-serif;
-}
-
-.contain {
-  background-color: #eee;
-
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-}
-
-div.form {
-  background-color: #eee;
-}
-.contact-wrapper {
-  margin: auto 0;
-}
-
-.submit-btn {
-  float: left;
-}
-.reset-btn {
-  float: right;
-}
-
-.form-headline:after {
-  content: "";
-  display: block;
-  width: 10%;
-  padding-top: 10px;
-  border-bottom: 3px solid #ec1c24;
-}
-
-.highlight-text {
-  color: #ec1c24;
-}
-
-.hightlight-contact-info {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1.5;
-}
-
-.highlight-text-grey {
-  font-weight: 500;
-}
-
-.email-info {
-    margin-top: 20px;
-}
-
-::-webkit-input-placeholder { /* Chrome */
-  font-family: 'Roboto', sans-serif;
-}
-
-.required-input {
-  color: black;
-}
-@media (min-width: 600px) {
-  .contain {
-    padding: 0;
-  }
-}
-
-h3,
-ul {
-  margin: 0;
-}
-
-h3 {
-  margin-bottom: 1rem;
-}
-
-.form-input:focus,
-textarea:focus{
-  outline: 1.5px solid #ec1c24;
-}
-
-.form-input,
-textarea {
-  width: 100%;
-  border: 1px solid #bdbdbd;
-  border-radius: 5px;
-}
-
-.wrapper > * {
-  padding: 1em;
-}
-@media (min-width: 700px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .wrapper > * {
-    padding: 2em 2em;
-  }
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.contacts {
-  color: #212d31;
-}
-
-.form {
-  background: #fff;
+  background-color: black;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:60px;
+  margin: 12px auto;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  position:relative;
+  z-index:1;
 }
-form label {
+
+form > div{
+  position:absolute;
+  top:0;
+  left:50%;
+  padding:0 20px;
+  transform:translate(-50%,-50%);
+  background-color:black;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  text-align:center;
+}
+
+form > div > img{
+  filter:invert(1);
+  width:100px;
+}
+
+form > input,
+form > textarea {
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #ccc;
+  color: #ddd;
+  background-color: #222;
+  border-radius: 4px;
   display: block;
-}
-form p {
-  margin: 0;
+  width: 70vw;
 }
 
-.full-width {
-  grid-column: 1 / 3;
+form > textarea{
+  height:100px;
+  resize:none;
 }
 
-button,
-.submit-btn,
-.form-input,
-textarea {
-  padding: 1em;
+form > input[type="submit"] {
+  max-width: 20vw;
+  padding-left: 1%;
+  padding-right: 1%;
+  cursor: pointer;
+  transition: 0.35s;
 }
 
-button, .submit-btn {
-  background: transparent;
-  border: 1px solid #ec1c24;
-  color: #ec1c24;
-  border-radius: 15px;
-  padding: 5px 20px;
-  text-transform: uppercase;
-}
-button:hover, .submit-btn:hover,
-button:focus , .submit-btn:focus{
-  background: #ec1c24;
-  outline: 0;
-  color: #eee;
-}
-.error {
-  color: #ec1c24;
+form > input[type="submit"]:hover {
+  background-color: #555;
 }
 
 

@@ -1,8 +1,8 @@
 <template>
-  <section class="page-section" id="about">
+  <section class="page-section" id="resume">
     <div class="container">
 <div class="section-title">
-        <h2>Work / Education</h2>
+        <h2>resume</h2>
         <p>
         </p>
       </div>
@@ -10,7 +10,7 @@
         <li>
           <div class="timeline-image">
             <img
-              src="../assets/images/downloadcopy.jpg"
+              src="@/assets/images/unnamed2.jpg"
               class="rounded-circle img-fluid"
               style="width: 200px"
               alt=""
@@ -123,9 +123,9 @@
               <h4>
                 view
                 <br />
-                Our
+                my
                 <br />
-                catalog
+                portfolio
               </h4></a
             >
           </div>
