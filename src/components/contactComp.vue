@@ -56,7 +56,7 @@
               </dl>
               <div class="row">
                 <div class="col-sm-12">
-                  <input type="submit" class="form-control btn-grad" value="Submit" />
+                  <input type="submit" name="submit" class="form-control btn-grad" value="Submit" />
                 </div>
               </div>
             </form>
