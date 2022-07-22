@@ -6,44 +6,44 @@
 
           <div class="text-left">
             <!-- C++ -->
-            HTML<span style="float: right">95%</span>
+            Adaptable<span style="float: right">95%</span>
             <div class="skillbar-container clearfix" data-percent="95%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- Fortran -->
-            MySQL<span style="float: right">65%</span>
-            <div class="skillbar-container clearfix" data-percent="65%">
+            resilience<span style="float: right">80%</span>
+            <div class="skillbar-container clearfix" data-percent="80%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- Java -->
-            JavaScript<span style="float: right">35%</span>
-            <div class="skillbar-container clearfix" data-percent="35%">
+            Creativity<span style="float: right">65%</span>
+            <div class="skillbar-container clearfix" data-percent="65%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- Cmake -->
-            CSS<span style="float: right">75%</span>
+            Attention To Detail<span style="float: right">75%</span>
             <div class="skillbar-container clearfix" data-percent="75%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- HTML -->
-            Bootstrap<span style="float: right">85%</span>
+            Problem solving<span style="float: right">85%</span>
             <div class="skillbar-container clearfix" data-percent="85%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- JavaScript -->
-            Node.js<span style="float: right">45%</span>
-            <div class="skillbar-container clearfix" data-percent="45%">
+            Communication skills<span style="float: right">80%</span>
+            <div class="skillbar-container clearfix" data-percent="80%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- jQuery -->
-            Vue.js<span style="float: right">50%</span>
-            <div class="skillbar-container clearfix" data-percent="50%">
+            Optimism<span style="float: right">78%</span>
+            <div class="skillbar-container clearfix" data-percent="78%">
               <div class="skills" style="background: white"></div>
             </div>
           </div>
@@ -55,7 +55,7 @@
 
 <script>
 $(window).scroll(function () {
-  var hT = $("#skill-bar-wrapper").offset().top,
+  let hT = $("#skill-bar-wrapper").offset().top,
     hH = $("#skill-bar-wrapper").outerHeight(),
     wH = $(window).height(),
     wS = $(this).scrollTop();

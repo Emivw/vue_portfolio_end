@@ -3,46 +3,46 @@ import { createStore } from 'vuex'
 export default createStore({
     state: {
         projects: [{
-                image: "https://i.postimg.cc/zX9QGs96/Pokedex.png",
+                image: "https://i.ibb.co/KFd81bb/marvel.png",
                 projectName: "Marvel Store",
                 aboutProject: " 4th month Group project using vue.js to create an e-com demo",
                 link: "https://effortless-cocada-955831.netlify.app/?",
-                github: "",
+                github: "https://github.com/Emivw/Marvel-Inc-vuex",
             },
             {
-                image: "https://i.postimg.cc/tTM5mPbw/Property-Listing.png",
+                image: "https://i.ibb.co/j6fGMBT/grp-proj.png",
                 projectName: "Meet Us",
                 aboutProject: "first group project at the start of the course",
                 link: "https://effortless-cocada-955831.netlify.app/?",
-                github: "",
+                github: "https://github.com/Emivw/college1",
 
             },
             {
-                image: "https://i.postimg.cc/506G0f2c/TodoApp.png",
+                image: "https://i.ibb.co/x7pSMQ5/todo.png",
                 projectName: "TodoApp",
                 aboutProject: "simple js app adding items to a array and using crud",
                 link: "https://effortless-cocada-955831.netlify.app/?",
-                github: "",
+                github: "https://github.com/Emivw/ToDo-revised",
             },
             {
-                image: "https://i.postimg.cc/MG8KVrjr/Bmi-Calculator.png",
+                image: "https://i.ibb.co/HdP6M2P/calc.png",
                 projectName: "Calculator",
                 aboutProject: "My js calculator",
                 link: "https://thunderous-cupcake-e3d0cb.netlify.app/",
-                github: "",
+                github: "https://github.com/Emivw/projects",
             },
             {
-                image: "https://i.postimg.cc/qBKbZbtG/Swegga.png",
+                image: "https://i.ibb.co/HGwC9X9/hex-to-rgbpng.png",
                 projectName: "hexColor-to-RGB",
                 aboutProject: "converts hex color values to RGB values",
                 link: "https://hex-to-rgb-js.netlify.app/",
-                github: "",
+                github: "https://github.com/Emivw/hex_to_rgb",
             },
             {
-                image: "https://i.postimg.cc/VN549DQn/Temp-Calculator.png",
+                image: "https://i.ibb.co/0jMFNKg/beastpng.png",
                 projectName: "Beast-List",
                 aboutProject: "This project I created a site to add products",
-                github: "",
+                github: "https://github.com/Emivw/Ecom-tailedbeasts",
             },
         ],
         testimonials: [{

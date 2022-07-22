@@ -119,7 +119,7 @@
 
         <li class="timeline-inverted">
           <div class="timeline-image">
-            <a style="text-decoration: none">
+            <a style="text-decoration: none" href="">
               <h4>
                 view
                 <br />

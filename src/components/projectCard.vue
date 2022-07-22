@@ -4,18 +4,20 @@
       <h2>portfolio</h2>
     </div>
     <div class="row">
-      <div class="col-md-3" v-for="project in projects" :key="project">
+      <div class="col-xl-4 col-xm-12 col-sm-6 col-md-6" v-for="project in projects" :key="project">
         <div class="card">
+        <img :src="project.image" class="img-fluid rounded-circle" style="aspect-ratio: 1;" alt="">
           <div class="card-body">
             <div class="card-content">
               <h2 class="card-title">{{ project.projectName }}</h2>
+              <a class="" :href="project.link" target="_blank">Live Demo &rightarrow;</a>
+              <a class="btn-grad floating" :href="project.github" target="_blank">
+                <i class="bi bi-github" aria-hidden="true"></i>&rightarrow;
+              </a>
               <p class="card-text">
                 {{ project.aboutProject }}
               </p>
 
-              <button data-toggle="modal" data-target="#exampleModalCenter">
-                Learn more &rightarrow;
-              </button>
             </div>
           </div>
         </div>
@@ -76,7 +78,7 @@ export default {
 }
 
 .card:hover .card-body {
-  height: 60%;
+  height: 70%;
 }
 .card-content {
   padding: 2rem;
