@@ -1,6 +1,10 @@
 <template>
-<section id="contact" class="py-5">
-<form>
+<section id="contact" class="py-5 px-5">
+
+<div class="section-title py-5">
+        <h2>get in touch</h2>
+      </div>
+<form action="https://formspree.io/f/xrgjyewq" method="POST">
   <div>
   <img src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png" alt="icon">
    </div>
@@ -8,7 +12,7 @@
   <input type="text" placeholder="Return address (required)" required>
   <input type="text" placeholder="Topic (required)" required>
   <textarea placeholder="Subject (required)" required></textarea>
-  <input type="submit" value="Send">
+  <input type="submit" value="Send" class="btn-grad">
 </form>
 </section>
 </template>
@@ -21,7 +25,6 @@
   padding: 0;
   margin: 0;
   box-sizing: bordera-box;
-  font-family: Helvetica;
 }
 
 body {
@@ -85,9 +88,9 @@ form > input[type="submit"] {
   transition: 0.35s;
 }
 
-form > input[type="submit"]:hover {
+/* form > input[type="submit"]:hover {
   background-color: #555;
-}
+} */
 
 
 </style>

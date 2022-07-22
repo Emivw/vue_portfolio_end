@@ -9,7 +9,6 @@
       <mainComp />
     </div>
   </div>
-      
       <footerComp />
 </template>
 <script>
@@ -55,6 +54,14 @@ export default {
   font-family: "Palatino Linotype";
   color: white;
   background-color: black;
+}
+h2{
+    text-decoration: underline #159A9C 20%;
+    
+}
+h3{
+        color: #0563bb;
+        text-decoration: underline #159A9C 20%;
 }
 /*--------------------------------------------------------------
 # Sections General

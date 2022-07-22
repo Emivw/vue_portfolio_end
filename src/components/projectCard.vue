@@ -91,7 +91,7 @@ height: max-content;
     padding: 0 0 0 8px;
     transition: 1s;
     border-radius: 0 0 15px 0;
-    background-color: #159A9C;
+    background-color: #0563bb;
 }
 
 .card:hover .card-body{

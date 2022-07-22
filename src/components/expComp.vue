@@ -140,7 +140,7 @@
 <style scoped>
 .page-section {
   /* background: #000; */
-  color: #47748b;
+  color: #0563bb;
   z-index: 2;
 }
 .timeline {
