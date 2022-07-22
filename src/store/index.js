@@ -13,7 +13,7 @@ export default createStore({
                 image: "https://i.ibb.co/j6fGMBT/grp-proj.png",
                 projectName: "Meet Us",
                 aboutProject: "first group project at the start of the course",
-                link: "https://effortless-cocada-955831.netlify.app/?",
+                link: "https://thunderous-croissant-f44579.netlify.app?",
                 github: "https://github.com/Emivw/college1",
 
             },
@@ -42,6 +42,7 @@ export default createStore({
                 image: "https://i.ibb.co/0jMFNKg/beastpng.png",
                 projectName: "Beast-List",
                 aboutProject: "This project I created a site to add products",
+                link: "https://wondrous-moxie-576646.netlify.app/",
                 github: "https://github.com/Emivw/Ecom-tailedbeasts",
             },
         ],
