@@ -119,13 +119,13 @@
 
         <li class="timeline-inverted">
           <div class="timeline-image">
-            <a style="text-decoration: none" href="">
+            <a style="text-decoration: none" href="https://drive.google.com/file/d/1s6n2gbMQGMKqi6cXCGmOMBkOq-JVnkHh/view?usp=sharing" target="_blank">
               <h4>
                 view
                 <br />
                 my
                 <br />
-                portfolio
+                CV
               </h4></a
             >
           </div>

@@ -12,7 +12,7 @@
             </div>
 
             <!-- Fortran -->
-            resilience<span style="float: right">80%</span>
+            Resilience<span style="float: right">80%</span>
             <div class="skillbar-container clearfix" data-percent="80%">
               <div class="skills" style="background: white"></div>
             </div>
