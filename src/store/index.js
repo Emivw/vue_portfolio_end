@@ -6,7 +6,7 @@ export default createStore({
                 image: "https://i.ibb.co/KFd81bb/marvel.png",
                 projectName: "Marvel Store",
                 aboutProject: " 4th month Group project using vue.js to create an e-com demo",
-                link: "https://effortless-cocada-955831.netlify.app/?",
+                link: "https://luxury-phoenix-954cac.netlify.app",
                 github: "https://github.com/Emivw/Marvel-Inc-vuex",
             },
             {
