@@ -23,7 +23,7 @@
               <dl class="row">
                 <dt class="col-sm-4 text-info font-secondary">Name*</dt>
                 <dd class="col-sm-8">
-                  <input type="text" class="form-control" placeholder="Name" required />
+                  <input type="text" class="form-control" name="name" placeholder="Name" required />
                 </dd>
 
                 <dt class="col-sm-4 text-info font-secondary">Email*</dt>
@@ -31,7 +31,7 @@
                   <input
                     type="Email"
                     class="form-control text-info"
-                    placeholder="Email"
+                    placeholder="Email" name="email"
                     required
                   />
                 </dd>
@@ -40,7 +40,7 @@
                   <input
                     type="subject"
                     class="form-control text-info"
-                    placeholder="Subject"
+                    placeholder="Subject" name="subject"
                     required
                   />
                 </dd>
@@ -49,7 +49,7 @@
                   <textarea
                     type="textarea"
                     class="form-control text-info"
-                    placeholder="Message"
+                    placeholder="Message" name="message"
                     required
                   />
                 </dd>
