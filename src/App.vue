@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper bg-dark">
-    <!-- Sidebar  -->
     <NavBar/>
 
     <!-- Page Content  -->
@@ -8,8 +7,8 @@
       <headerComp />
       <mainComp />
     </div>
-  </div>
       <footerComp />
+  </div>
 </template>
 <script>
 
@@ -22,12 +21,29 @@ export default {
 };
 </script>
 <style>
+body {
+  position: relative;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
      color: #6c757d !important;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #159A9C;
+  /* border-radius: 10px; */
+}
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 10px;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0563bb;
+  /* border-radius: 10px; */
 }
 
 :root{
