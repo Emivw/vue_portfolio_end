@@ -67,7 +67,7 @@ body {
 
 #content {
   width: 100%;
-  font-family: "Palatino Linotype";
+  font-family: "Bebas Neue";
   color: white;
   background-color: black;
 }
@@ -85,6 +85,9 @@ h3{
 section {
   padding: 60px 0;
   overflow: hidden;
+}
+img{
+  object-fit: cover !important;
 }
 
 .section-title {

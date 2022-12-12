@@ -2,7 +2,7 @@
   <div class="container-fluid sticky-top">
   <nav class="navbar navbar-expand-md navbar-light bg-light menu menu-1  sticky-top" id="navbar-example">
     <div class="container">
-      <a class="navbar-brand" href="#"> <img src="@/assets/images/image001.jpg" class="img-fluid" alt=""></a>
+      <img src="@/assets/images/image001.jpg" class="img-fluid navbar-brand" alt="">
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -72,6 +72,7 @@ a:hover::before {
 a::after {
 	content: "";
 	height: 4px;
+  
 	width: 0;
 	position: absolute;
 	top: 50%;
@@ -83,6 +84,7 @@ a::after {
 a:hover::after {
 	width: 100%;
 	outline: 1px solid rgb(2, 0, 36);
+  margin-bottom: 100px;
 }
 
 </style>

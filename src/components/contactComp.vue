@@ -79,6 +79,6 @@ body {
   border: 0px;
 }
 .form-area {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 </style>

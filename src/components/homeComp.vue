@@ -2,7 +2,7 @@
   <div class="content">
     <div class="banner">
       <div class="title">EMILE VAN WYK</div>
-      <div class="subtitle">Aspiring Full-Stacks Developer</div>
+      <div class="subtitle">Aspiring Full-Stack Developer</div>
       <div class="hint">
         <div class="inner-arrow">
           <div class="hint-text">SCROLL</div>
@@ -62,7 +62,7 @@ body {
 }
 .content {
   width: 100%;
-  font-family: "Palatino Linotype";
+  font-family: "Bebas Neue";
   color: white;
   background-color: black;
 }
