@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid sticky-top">
+  <div class="container-fluid sticky-top animate animate__rubberBand">
   <nav class="navbar navbar-expand-md navbar-light bg-light menu menu-1  sticky-top" id="navbar-example">
     <div class="container">
       <img src="@/assets/images/image001.jpg" class="img-fluid navbar-brand" alt="">
@@ -85,6 +85,9 @@ a:hover::after {
 	width: 100%;
 	outline: 1px solid rgb(2, 0, 36);
   margin-bottom: 100px;
+}
+.container-fluid{
+  padding: 0;
 }
 
 </style>

@@ -74,7 +74,7 @@ export default {
   padding: 0 0 0 8px;
   transition: 1s;
   border-radius: 0 0 15px 0;
-  background-color: #0563bb;
+  background-color: rgb(32, 55, 191);
 }
 
 .card:hover .card-body {
@@ -97,6 +97,6 @@ button {
 }
 
 h2 {
-  text-decoration: underline #159a9c 20%;
+  text-decoration: underline rgb(32, 55, 191) 20%;
 }
 </style>

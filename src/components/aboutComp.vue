@@ -3,8 +3,8 @@
   <section id="about" class="about">
     <div class="container">
       <div class="section-title">
-        <h2>About</h2>
-        <p>
+        <h2 class="subtitle">About</h2>
+        <p class="subtitle">
           Hi there, my name is Emile I'm an aspiring website designer from Cape
           Town, with a focus in UI/UX design and Web/App Development. I love to
           get new experiences and always learn from my surroundings. I'm still a
@@ -19,13 +19,13 @@
             <div class="front-card"></div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" >
           <h3>Aspiring Web Developer</h3>
           <hr class="my-2" />
           <p></p>
           <div class="row">
             <div class="col-md-6">
-              <ul>
+              <ul >
                 <li>
                   <i class="bi bi-calendar-date-fill"></i
                   ><strong> Birthday:</strong> 5 October 2000

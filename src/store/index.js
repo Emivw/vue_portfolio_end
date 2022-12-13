@@ -2,7 +2,15 @@ import { createStore } from 'vuex'
 
 export default createStore({
     state: {
-        projects: [{
+        projects: [
+            {
+                image: "https://i.ibb.co/XZDSBTg/2022-12-13-09-48-14.png",
+                projectName: "Capstone project",
+                aboutProject: "final project and show of skills with a e-com demo",
+                link: "https://emis-capstone.web.app/",
+                github: "https://github.com/Emivw/emis-capstone",
+            },
+            {
                 image: "https://i.ibb.co/KFd81bb/marvel.png",
                 projectName: "Marvel Store",
                 aboutProject: " 4th month Group project using vue.js to create an e-com demo",
@@ -47,7 +55,7 @@ export default createStore({
             },
         ],
         testimonials: [{
-                image: "https://www.lifechoices.co.za/sites/default/files/2022-01/godwin-2022.jpg",
+                image: "https://sit.uct.ac.za/sites/default/files/content_migration/science_uct_ac_za/274/images/godwin.jpg",
                 name: "Godwin Dzvapatsva",
                 quote: "Emile has a very gentle personality. Since joining Lifechoices Academy, Emile has shown great enthusiasm for coding. He is hard-working and gets along well with his classmates. I am confident that he will continue to be productive and willing to learn new concepts. I recommend him.",
                 level: "Head of Curriculum",

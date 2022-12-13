@@ -2,7 +2,7 @@
   <div class="content">
     <div class="banner">
       <div class="title">EMILE VAN WYK</div>
-      <div class="subtitle">Aspiring Full-Stack Developer</div>
+      <div class="subtitle animate__animated animate__backInRight">Aspiring Full-Stack Developer</div>
       <div class="hint">
         <div class="inner-arrow">
           <div class="hint-text">SCROLL</div>
@@ -13,12 +13,11 @@
 
     <div class="quote">
       <div class="front-bracket"></div>
-      <div class="sentence">Welcome to you.</div>
+      <div class="sentence animate__animated animate__bounce">Welcome to you.</div>
       <div class="sentence">Blessings of the moons upon you, traveller.</div>
       <div class="end-bracket"></div>
     </div>
-
-    </div>
+  </div>
 </template>
 
 <script>
@@ -64,12 +63,15 @@ body {
   width: 100%;
   font-family: "Bebas Neue";
   color: white;
-  background-color: black;
+  background: url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: url("https://wallpaperplay.com/walls/full/b/e/8/298315.jpg");
+  background-image: url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -148,6 +150,4 @@ body {
   right: 0;
   bottom: 0;
 }
-
-
 </style>

@@ -117,6 +117,9 @@
 <script></script>
 
 <style>
+*{
+  font-family: Bebas Neue;
+}
 ul {
   margin: 0px;
   padding: 0px;
@@ -177,7 +180,7 @@ ul {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Bebas Neue";
   margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -193,13 +196,13 @@ ul {
   border-radius: 50%;
 }
 .facebook-bg {
-  background: #3b5998;
+  background: rgb(32, 55, 191)s;
 }
 .twitter-bg {
-  background: #55acee;
+  background: rgb(32, 55, 191);
 }
 .google-bg {
-  background: #0563bb;
+  background: rgb(32, 55, 191);
 }
 .footer-widget-heading h3 {
   color: #fff;
@@ -215,7 +218,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #0563bb;
+  background: rgb(32, 55, 191);
 }
 .footer-widget ul li {
   display: inline-block;
@@ -224,7 +227,7 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: #0563bb;
+  color: rgb(32, 55, 191);
 }
 .footer-widget ul li a {
   color: #878787;
@@ -244,9 +247,9 @@ ul {
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #0563bb;
+  background: rgb(32, 55, 191);
   padding: 13px 20px;
-  border: 1px solid #0563bb;
+  border: 1px solid rgb(32, 55, 191);
   top: 0;
 }
 .subscribe-form button i {
@@ -264,14 +267,14 @@ ul {
   color: #878787;
 }
 .copyright-text p a {
-  color: #0563bb;
+  color: rgb(32, 55, 191);
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: #0563bb;
+  color: rgb(32, 55, 191);
 }
 .footer-menu li a {
   font-size: 14px;

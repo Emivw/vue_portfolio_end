@@ -120,7 +120,7 @@ export default {
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-  background: #3190e7;
+  background: rgb(32, 55, 191);
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
 #customers-testimonials.owl-carousel .owl-dots {
@@ -132,7 +132,7 @@ export default {
   display: inline-block;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-  background: #3190e7;
+  background: rgb(32, 55, 191);
   display: inline-block;
   height: 20px;
   margin: 0 2px 5px;

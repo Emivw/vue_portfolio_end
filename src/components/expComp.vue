@@ -1,12 +1,40 @@
 <template>
   <section class="page-section" id="resume">
     <div class="container">
-<div class="section-title">
+      <div class="section-title">
         <h2>resume</h2>
-        <p>
-        </p>
+        <p></p>
       </div>
       <ul class="timeline">
+        <li class="timeline-inverted">
+          <div class="timeline-image bg-white">
+            <img
+              src="https://lcstudio.co.za/wp-content/uploads/logo.png"
+              class="img-fluid p-2 mt-4 "
+              alt=""
+            />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2022 - present</h4>
+              <h4 class="subheading">
+                LC STUDIO - FULLSTACK DEVELOPMENT INTERN
+              </h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Worked and collaborated on multiple projects using HTML, CSS,
+                BOOTSTRAP, VUE.js, NODE.js, MYSQL, JavaScript and VUETIFY to
+                create and host functional websites via FIREBASE showing off
+                features such as login system, booking system, cart system, todo
+                app systems and converters.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-panel floating">
+            <div class="timeline-heading"></div>
+          </div>
+        </li>
         <li>
           <div class="timeline-image">
             <img
@@ -72,8 +100,8 @@
         <li>
           <div class="timeline-image">
             <img
-              src="https://academy.lifechoices.co.za/pluginfile.php/1/theme_moove/logo/1616663360/LIFE-CHOICES-ACADEMY-LOGO-ON-BLUE-removebg-preview.png"
-              class="img-fluid rounded-circle mt-4 py-3"
+              src="https://lifechoicesacademy.com/wp-content/uploads/2019/11/Life-Choices-Academy-Logo-G.png"
+              class="img-fluid mt-4 py-3"
               alt=""
             />
           </div>
@@ -97,7 +125,8 @@
           <div class="timeline-image">
             <img
               src="https://ged.com/wp-content/uploads/2018/03/ged-logo.svg"
-              class=" img-fluid rounded-4 mt-4" style="width: 140px;"
+              class="img-fluid rounded-4 mt-4"
+              style="width: 140px"
               alt=""
             />
           </div>
@@ -119,7 +148,11 @@
 
         <li class="timeline-inverted">
           <div class="timeline-image">
-            <a style="text-decoration: none" href="https://drive.google.com/file/d/1s6n2gbMQGMKqi6cXCGmOMBkOq-JVnkHh/view?usp=sharing" target="_blank">
+            <a
+              style="text-decoration: none"
+              href="https://drive.google.com/file/d/1s6n2gbMQGMKqi6cXCGmOMBkOq-JVnkHh/view?usp=sharing"
+              target="_blank"
+            >
               <h4>
                 view
                 <br />
@@ -140,7 +173,7 @@
 <style scoped>
 .page-section {
   /* background: #000; */
-  color: #0563bb;
+  color: rgb(32, 55, 191);
   z-index: 2;
 }
 .timeline {
@@ -371,7 +404,7 @@
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: white !important;
 }
 
 p {

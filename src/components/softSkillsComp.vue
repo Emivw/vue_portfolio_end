@@ -30,13 +30,13 @@
             </div>
 
             <!-- HTML -->
-            Problem solving<span style="float: right">85%</span>
+            Problem-solving<span style="float: right">85%</span>
             <div class="skillbar-container clearfix" data-percent="85%">
               <div class="skills" style="background: white"></div>
             </div>
 
             <!-- JavaScript -->
-            Communication skills<span style="float: right">80%</span>
+            Communication<span style="float: right">80%</span>
             <div class="skillbar-container clearfix" data-percent="80%">
               <div class="skills" style="background: white"></div>
             </div>

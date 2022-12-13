@@ -81,4 +81,7 @@ body {
 .form-area {
   /* border: 1px solid #fff; */
 }
+.font-secondary{
+  color: white !important;
+}
 </style>

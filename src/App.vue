@@ -21,6 +21,16 @@ export default {
 };
 </script>
 <style>
+
+.subtitle {
+  min-width: 40%;
+  text-align: center;
+  font-size: 5vmin;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  box-shadow: 0px 0px 25px 10px black;
+  padding: 0 2rem;
+}
 body {
   position: relative;
 }
@@ -33,7 +43,7 @@ body {
 }
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: #159A9C;
+  background-color: #ffffff;
   /* border-radius: 10px; */
 }
 ::-webkit-scrollbar-track {
@@ -42,7 +52,7 @@ body {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #0563bb;
+  background: rgb(32, 55, 191);
   /* border-radius: 10px; */
 }
 
@@ -72,12 +82,12 @@ body {
   background-color: black;
 }
 h2{
-    text-decoration: underline #159A9C 20%;
+    text-decoration: underline rgb(32, 55, 191) 20%;
     
 }
 h3{
-        color: #0563bb;
-        text-decoration: underline #159A9C 20%;
+        color: rgb(32, 55, 191);
+        text-decoration: underline rgb(32, 55, 191) 20%;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -122,7 +132,7 @@ img{
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: rgb(32, 55, 191);
   bottom: 0;
   left: calc(50% - 20px);
 }
